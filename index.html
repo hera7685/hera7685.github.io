@@ -111,35 +111,45 @@
         </section>
         <!-- Skills -->
         <section id="skills" class="section">
-            <h2 class="title">My Skills</h2>
+            <div class="max-container">
+                <h2 class="title">My Skills</h2>
             <p class="description">Skills & Attributes</p>
             <p>I excel in Agile development, React, .NET, SQL, and MongoDB, backed by strong problem-solving skills, teamwork, and a dedication to staying current in the field.</p>
-            <div>
-                <section>
-                    <h3>Coding skills</h3>
+            <div class="skills">
+                <section class="skills__coding">
+                    <h3 class="skills__title">Coding skills</h3>
                     <ul>
-                        <li><div><span>HTML</span><span>98%</span></div>
-                        <div><div style="width: 98%"></div></li>
-                        <li><div><span>CSS</span><span>99%</span></div>
-                        <div><div style="width: 99%"></div></li>
-                        <li><div><span>HJavaScript</span><span>85%</span></div>
-                        <div><div style="width: 85%"></div></li>
-                        <li><div><span>React</span><span>79%</span></div>
-                        <div><div style="width: 79%"></div></li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>HTML</span><span>98%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 98%"></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>CSS</span><span>99%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 99%"></div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>JavaScript</span><span>85%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 85%"></div>
+                        </li>
+                        <li class="bar">    
+                            <div class="bar__metadata"><span>React</span><span>79%</span></div>
+                            <div class="bar__bg"><div class="bar__value" style="width: 79%"></div>
+                    </li>
                     </ul>
                 </section>
-                <section>
-                    <h3>Tools</h3>
+                <section class="skills__tools">
+                    <h3 class="skills__title">Tools</h3>
                     <li>Visual Studio Code</li>
                     <li></li>
                 </section>
-                <section>
-                    <h3>Etc</h3>
+                <section class="skills__etc">
+                    <h3 class="skills__title">Etc</h3>
                     <li>Git</li>
                     <li>Scrum master</li>
                 </section>
             
-
+            </div>
+            </div>
         </section>
         <!-- Work -->
         <section id="work" class="section">
