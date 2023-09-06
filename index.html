@@ -23,33 +23,25 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- JavaScript -->
     <script src="src/main.js" defer></script>
-    <style>
-        nav {
-            display: flex; /* Use flexbox to arrange elements horizontally */
-            align-items: center; /* Vertically center elements */
-        }
-        div {
-            display: flex;
-        }
-    
+    <style>  
        
     </style>
 </head> 
 <body>
     <!-- Header -->
-    <header> 
-        <div>
-            <img src="images/favicon.ico" alt="Logo" width="40px" height="40px">
-            <h1><a href="#">Chloe</a></h1>
+    <header class="header"> 
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/favicon.ico" alt="Logo" />
+            <h1 class="header__logo__title"><a href="#">Chloe</a></h1>
         </div>    
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#work">My work</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="contact">Contact</a></li>
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">Home</a></li>
+                <li><a class="header__menu__item" href="#about">About</a></li>
+                <li><a class="header__menu__item" href="#skills">Skills</a></li>
+                <li><a class="header__menu__item" href="#work">My work</a></li>
+                <li><a class="header__menu__item" href="#testimonials">Testimonials</a></li>
+                <li><a class="header__menu__item" href="contact">Contact</a></li>
             </ul>
         </nav>
 
