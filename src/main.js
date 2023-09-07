@@ -28,3 +28,16 @@ document.addEventListener('scroll', () => {
         arrowUp.style.opacity = 0;
     }
 });
+
+// Hamburger menu
+const navbarMenu = document.querySelector('.header__menu');
+const navbarToggle = document.querySelector('.header__toggle');
+
+navbarToggle.addEventListener('click', () => {
+    navbarMenu.classList.toggle('open'); 
+});
+
+// Menu closed when a menu selected
+navbarMenu.addEventListener('click', () => {
+    navbarMenu.classList.remove('open'); 
+});
